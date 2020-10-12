@@ -12,7 +12,7 @@ import HelpRoundedIcon from "@material-ui/icons/HelpRounded";
 
 
 
-function ChatHeader() {
+function ChatHeader({ channelName  }) {
     return (
         <div className="chatHeader">
            
@@ -21,7 +21,7 @@ function ChatHeader() {
                 <h3><span className="chatHeader__hash">
                     #
                     </span>
-                    Channel name testing
+                    {channelName}
                     
                     </h3>
 
